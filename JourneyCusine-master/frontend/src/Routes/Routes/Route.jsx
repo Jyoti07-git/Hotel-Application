@@ -1,4 +1,6 @@
 import { Suspense, lazy } from "react";
+import { FadeLoader } from "react-spinners";
+
 import { createBrowserRouter } from "react-router-dom";
 import { API } from "../../backend";
 import EditProfile from "../../Pages/UserProfile/EditProfile";
