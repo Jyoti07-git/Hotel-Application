@@ -1,17 +1,13 @@
-import { Toaster } from "react-hot-toast";
-import { RouterProvider } from "react-router-dom";
-import router from "./Routes/Routes/Route";
-import "./custom.css";
-import toast from 'react-hot-toast';
-import { Elements } from '@stripe/react-stripe-js';
-
-
+import { Toaster } from 'react-hot-toast';
+import { RouterProvider } from 'react-router-dom';
+import router from './Routes/Routes/Route';
+import './custom.css';
 
 function App() {
   return (
     <>
       <RouterProvider router={router} />
-      <Toaster></Toaster>
+      <Toaster />
     </>
   );
 }
