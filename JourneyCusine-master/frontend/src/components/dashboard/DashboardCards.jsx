@@ -1,6 +1,5 @@
 /* eslint-disable react/prop-types */
 import Cards from "../../components/dashboard/Cards";
-import { FadeLoader } from "react-spinners";
 import revenueIcon from "../../assets/basicIcon/dollar.png";
 import booking from "../../assets/basicIcon/booking.png";
 import house from "../../assets/basicIcon/wallet.png";
