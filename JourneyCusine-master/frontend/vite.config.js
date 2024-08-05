@@ -8,7 +8,7 @@ export default defineConfig({
   },
   build: {
     rollupOptions: {
-      external: ['react-hot-toast'], // Add external modules if needed
+      external: ['@stripe/stripe-js'], // Add external modules if needed
     },
   },
 });

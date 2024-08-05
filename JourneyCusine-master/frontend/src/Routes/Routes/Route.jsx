@@ -13,7 +13,7 @@ import ListHouseOverview from "../../Pages/ListHouseOverview";
 import ListHouseStepOne from "../../Pages/ListingHouseStepOne/ListHouseStepOne";
 import ListHouseStepOneStructure from "../../Pages/ListingHouseStepOne/ListHouseStepOneStructure";
 import ListHouseStepOnePlacetype from "../../Pages/ListingHouseStepOne/ListHouseStepOnePlacetype";
-import { FadeLoader } from "react-spinners";
+import { ClipLoader } from "react-spinners";
 // import ListingHouseStepOneAddress from "../../Pages/ListingHouseStepOne/ListingHouseStepOneAddress";
 // import ListingHouseStepOneFloorPlan from "../../Pages/ListingHouseStepOne/ListingHouseStepOneFloorPlan";
 // import StepTwoOverview from "../../Pages/ListingHouseStepTwo/StepTwoOverview";
