@@ -1,10 +1,8 @@
-// Example of rootReducer
-import { combineReducers } from 'redux';
-import someReducer from './someReducer';
+import { legacy_createStore as createStore, applyMiddleware } from 'redux';
+import logger from 'redux-logger';
+import thunk from 'redux-thunk';
+import rootReducer from './reducers/rootReducer';
 
-const rootReducer = combineReducers({
-  someState: someReducer,
-  // other reducers
-});
+const store = createStore(rootReducer, applyMiddleware(thunk, logger));
 
-export default rootReducer;
+export default store;
